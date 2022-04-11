@@ -115,7 +115,7 @@ name = "mydeployment"
 # URL = "gs://<Bucket Name>?prefix=a/subfolder/"
 
 # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
- cloudFrontDistributionID = E2F4WCF747U0MQ
+ cloudFrontDistributionID = "E2F4WCF747U0MQ"
 
 # Optionally, you can include or exclude specific files.
 # See https://godoc.org/github.com/gobwas/glob#Glob for the glob pattern syntax.
