@@ -8,27 +8,27 @@ on:
     branches: [ main ]
 
 jobs:
-Build_and_Deploy:
-    runs-on: ubuntu-20.04
-    steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+  Build_and_Deploy:
+      runs-on: ubuntu-20.04
+      steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
 
-    # Sets up Hugo
-    - name: Setup Hugo
-    uses: peaceiris/actions-hugo@v2
-    with:
-        hugo-version: 'v0.96.0'
+      # Sets up Hugo
+      - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+          hugo-version: 'v0.96.0'
 
-  # Builds jasonscalia.com
-    - name: Build jasonscalia.com
-      run: hugo --minify
+    # Builds jasonscalia.com
+      - name: Build jasonscalia.com
+        run: hugo --minify
 
-    # Deploys built website to S3
-  - name: Deploy to S3
-    run: hugo deploy --force --maxDeletes -1 --invalidateCDN
-    env:
-      AWS_ACCESS_KEY_ID: $
-      AWS_SECRET_ACCESS_KEY: $
+      # Deploys built website to S3
+    - name: Deploy to S3
+      run: hugo deploy --force --maxDeletes -1 --invalidateCDN
+      env:
+        AWS_ACCESS_KEY_ID: $
+        AWS_SECRET_ACCESS_KEY: $
 
 # Credit to: https://capgemini.github.io/development/Using-GitHub-Actions-and-Hugo-Deploy-to-Deploy-to-AWS/
