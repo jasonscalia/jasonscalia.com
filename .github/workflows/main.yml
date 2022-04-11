@@ -25,7 +25,7 @@ jobs:
 
       # Builds jasonscalia.com
       - name: Build jasonscalia.com
-        run: hugo --minify
+        run: hugo -D --minify
 
       # Setup AWS Creds
       - name: Configure AWS Credentials
