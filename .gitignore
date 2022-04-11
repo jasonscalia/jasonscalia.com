@@ -1,2 +1,3 @@
 .hugo_build.lock
 config.toml
+.DS_Store
