@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Web 1.0 in a Web 2.5 World</title>
-    <link>https://jasonscalia.com/tags/</link>
-    <description>Recent content in Tags on Web 1.0 in a Web 2.5 World</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;#169; 2022 - Jason Scalia</copyright><atom:link href="https://jasonscalia.com/tags/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Web 1.0 in a Web 2.5 World</title><link>https://jasonscalia.com/tags/</link><description>Recent content in Tags on Web 1.0 in a Web 2.5 World</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&amp;#169; 2022 - Jason Scalia</copyright><atom:link href="https://jasonscalia.com/tags/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
