@@ -1,7 +1,8 @@
 ---
+
 title: "Projects"
-date: 2022-04-11T21:50:03-05:00
-draft: false
+showFullContent: true
+
 ---
 
 ## Current Projects
