@@ -85,10 +85,10 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
-#      [[languages.en.menu.main]]
-#        identifier = "showcase"
-#        name = "Showcase"
-#        url = "/showcase"
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
 
 [deployment]
 # By default, files are uploaded in an arbitrary order.
@@ -99,7 +99,7 @@ order = [".jpg$", ".gif$"]
 
 [[deployment.targets]]
 # An arbitrary name for this target.
-name = "mydeployment"
+name = "awss3"
 # The Go Cloud Development Kit URL to deploy to. Examples:
 # GCS; see https://gocloud.dev/howto/blob/#gcs
 # URL = "gs://<Bucket Name>"
