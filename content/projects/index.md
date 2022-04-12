@@ -1,7 +1,9 @@
 ---
 
 title: "Projects"
+ReadingTime: false
 showFullContent: true
+draft: false
 
 ---
 

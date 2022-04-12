@@ -1,7 +1,9 @@
 ---
 
 title: "About"
+ReadingTime: false
 showFullContent: true
+draft: false
 
 ---
 
