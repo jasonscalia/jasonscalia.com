@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web 1.0 in a Web 2.5 World</title><link>https://jasonscalia.com/</link><description>Recent content on Web 1.0 in a Web 2.5 World</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&amp;#169; 2022 - Jason Scalia</copyright><atom:link href="https://jasonscalia.com/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://jasonscalia.com/</link><pubDate>Mon, 11 Apr 2022 22:28:15 -0500</pubDate><guid>https://jasonscalia.com/</guid><description/><content/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web 1.0 in a Web 2.5 World</title><link>https://jasonscalia.com/</link><description>Recent content on Web 1.0 in a Web 2.5 World</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&amp;#169; 2022 - Jason Scalia</copyright><atom:link href="https://jasonscalia.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>https://jasonscalia.com/projects/</link><pubDate>Mon, 11 Apr 2022 21:50:03 -0500</pubDate><guid>https://jasonscalia.com/projects/</guid><description>Current Projects Current listing of projects in progress:
+Project Tech Notes App Deployments Ansible/Ansible Automation Platform Client work Personal Site Terraform/Hugo This site Cloudquery Go/PostgreSQL/Terraform/K8s (EKS) Cloudquery Past Projects To be added.</description><content>&lt;h2 id="current-projects">Current Projects&lt;/h2>
+&lt;p>Current listing of projects in progress:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Project&lt;/th>
+&lt;th>Tech&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>App Deployments&lt;/td>
+&lt;td>Ansible/Ansible Automation Platform&lt;/td>
+&lt;td>Client work&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Personal Site&lt;/td>
+&lt;td>Terraform/Hugo&lt;/td>
+&lt;td>This site&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cloudquery&lt;/td>
+&lt;td>Go/PostgreSQL/Terraform/K8s (EKS)&lt;/td>
+&lt;td>&lt;a href="https://www.cloudquery.io/">Cloudquery&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="past-projects">Past Projects&lt;/h2>
+&lt;p>To be added.&lt;/p></content></item><item><title>Is this thing on?</title><link>https://jasonscalia.com/posts/</link><pubDate>Sun, 10 Apr 2022 19:02:25 -0500</pubDate><guid>https://jasonscalia.com/posts/</guid><description>Coming soon&amp;hellip;</description><content>&lt;p>Coming soon&amp;hellip;&lt;/p></content></item></channel></rss>
