@@ -1,10 +1,8 @@
 ---
-
 title: "About"
 ReadingTime: false
 showFullContent: true
 draft: false
-
 ---
 
 ## About Me
@@ -17,7 +15,7 @@ It's been a joy comparatively building this out in Markdown with Hugo.
 
 I currently work for [Effectual](https://www.effectual.com/), an AWS Premier Partner. Prior to that, I've most recently worked at [Rackspace](https://www.rackspace.com) and [Datapipe](https://en.wikipedia.org/wiki/Datapipe) (purchased by Rackspace).
 
-I started out as a linux administrator, before becoming an Engineering Manager at Rackspace and then an SRE at Effectual. I've been using AWS since about ~2010.
+I started out as a linux administrator, before becoming an Engineering Manager at Rackspace and then a Cloud Architet at Effectual. I've been using AWS since about ~2010.
 
 I'm also working on completing my B.S. in Computer Science with Western Governor's University, so I've been keeping busy!
 
@@ -29,4 +27,4 @@ Retro computing (DOS-era), traveling, racing/cars, collecting the occasional rar
 
 [LinkedIn](https://www.linkedin.com/in/jasonscalia/)  
 [GitHub](https://github.com/jasonscalia)  
-[Twitter](https://twitter.com/jason_scalia)  
+[Twitter](https://twitter.com/jason_scalia)
