@@ -2,5 +2,4 @@ module github.com/jasonscalia/jasonscalia.com-content
 
 go 1.19
 
-require (
-)
+require github.com/panr/hugo-theme-terminal v0.0.0-20221209145414-1d7e65f42e01 // indirect
