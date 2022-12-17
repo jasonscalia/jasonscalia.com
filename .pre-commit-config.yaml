@@ -9,7 +9,7 @@ ci:
     for more information, see https://pre-commit.ci
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks.git
-    rev: v4.1.0
+    rev: v4.4.0
     hooks:
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
