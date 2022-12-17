@@ -1,2 +1,4 @@
 github.com/panr/hugo-theme-terminal v0.0.0-20221209145414-1d7e65f42e01 h1:JDzkdGAOGuVjuxVXMchp/BC1c9EMob6TLFi9+OXCqpc=
 github.com/panr/hugo-theme-terminal v0.0.0-20221209145414-1d7e65f42e01/go.mod h1:rl66QefAPr/ZSyEFGqukIUV6S1TVjWSxAVpx/GHeJOs=
+github.com/razonyang/hugo-theme-bootstrap v1.0.0-alpha.15.0.20221212022736-33e14d04604d h1:fnXmA+PASM1XzEyS9RQRBY9TrIM/dmoGsYl0wneBaVA=
+github.com/razonyang/hugo-theme-bootstrap v1.0.0-alpha.15.0.20221212022736-33e14d04604d/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
