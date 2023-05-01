@@ -29,9 +29,9 @@ jobs:
 
       # Setup AWS Creds
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v2
         with:
-          role-to-assume: arn:aws:iam::070676039511:role/github-deploy
+          role-to-assume: arn:aws:iam::$ {{ secrets.AWS_ACCOUNT_ID }}:role/github-deploy
           aws-region: us-east-1
 
       # Deploys built website to S3
