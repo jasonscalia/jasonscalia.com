@@ -7,7 +7,7 @@ draft: false
 
 ## About Me
 
-Howdy, I'm Jason! I'm a former New Jerseyan now living in Austin, Texas with my wife and 2 dogs. I started this site to start sharing information again after a many year pause from my previous Wordpress-based site.
+Howdy, I'm Jason! I'm a former New Jerseyan now living in Austin, Texas with my wife and 3 dogs. I started this site to begin sharing information again after a many year pause from my previous Wordpress-based site.
 
 It's been a joy comparatively building this out in Markdown with Hugo.
 

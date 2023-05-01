@@ -1,166 +1,67 @@
-baseurl = "https://jasonscalia.com/"
-languageCode = "en-us"
-paginate = 5
+baseurl = "jasonscalia.com"
+DefaultContentLanguage = "en"
+title = "Jason is Web 1.1"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
 
-[params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Tech, ML, AI, Music, Naval stuff"
+  mainSections = ["post","posts"]
+  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = false
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  enableEmoji = true
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "blue"
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Jason"
+  website = "jasonscalia.com"
+  email = "jscalia@pm.me"
+  github = "jasonscalia"
+  twitter = "jason_scalia"
+  linkedin = "jasonscalia"
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
 
-  # show selector to switch language
-  showLanguageSelector = false
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
 
-  # set theme to full screen width
-  fullWidthTheme = false
-
-  # center theme with default width
-  centerTheme = false
-
-  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
-  autoCover = true
-
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
-
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
-
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
-
-  # set all headings to their default size (depending on browser settings)
-  # oneHeadingSize = true # default
-
-  # whether to show a page's estimated reading time
-   readingTime = false # default
-
-  # whether to show a table of contents
-  # can be overridden in a page's front-matter
-  # Toc = false # default
-
-  # set title for the table of contents
-  # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
-
-
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = "jason_scalia"
-  site = ""
-
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Web 1.0 in a Web 2.5 World"
-    subtitle = ""
-    owner = "jason_scalia"
-    keywords = ""
-    copyright = "&#169; 2022 - Jason Scalia"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
-
-    [languages.en.params.logo]
-      logoText = "Web 1.0 in a Web 2.5 World"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "projects"
-        name = "Projects"
-        url = "/projects"
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts"
-
-[deployment]
-# By default, files are uploaded in an arbitrary order.
-# Files that match the regular expressions in the "Order" list
-# will be uploaded first, in the listed order.
-order = [".jpg$", ".gif$"]
-
-
-[[deployment.targets]]
-# An arbitrary name for this target.
-name = "awss3"
-# The Go Cloud Development Kit URL to deploy to. Examples:
-# GCS; see https://gocloud.dev/howto/blob/#gcs
-# URL = "gs://<Bucket Name>"
-
-# S3; see https://gocloud.dev/howto/blob/#s3
-# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
- URL = "s3://jasonscalia.com?region=us-east-1"
-
-# Azure Blob Storage; see https://gocloud.dev/howto/blob/#azure
-# URL = "azblob://$web"
-
-# You can use a "prefix=" query parameter to target a subfolder of the bucket:
-# URL = "gs://<Bucket Name>?prefix=a/subfolder/"
-
-# If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
- cloudFrontDistributionID = "E2F4WCF747U0MQ"
-
-# Optionally, you can include or exclude specific files.
-# See https://godoc.org/github.com/gobwas/glob#Glob for the glob pattern syntax.
-# If non-empty, the pattern is matched against the local path.
-# All paths are matched against in their filepath.ToSlash form.
-# If exclude is non-empty, and a local or remote file's path matches it, that file is not synced.
-# If include is non-empty, and a local or remote file's path does not match it, that file is not synced.
-# As a result, local files that don't pass the include/exclude filters are not uploaded to remote,
-# and remote files that don't pass the include/exclude filters are not deleted.
-# include = "**.html" # would only include files with ".html" suffix
-# exclude = "**.{jpg, png}" # would exclude files with ".jpg" or ".png" suffix
-
-
-# [[deployment.matchers]] configure behavior for files that match the Pattern.
-# See https://golang.org/pkg/regexp/syntax/ for pattern syntax.
-# Pattern searching is stopped on first match.
-
-# Samples:
-
-[[deployment.matchers]]
-# Cache static assets for 1 year.
-pattern = "^.+\\.(js|css|svg|ttf)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = true
-
-[[deployment.matchers]]
-pattern = "^.+\\.(png|jpg)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = false
-
-[[deployment.matchers]]
-# Set custom content type for /sitemap.xml
-pattern = "^sitemap\\.xml$"
-contentType = "application/xml"
-gzip = true
-
-[[deployment.matchers]]
-pattern = "^.+\\.(html|xml|json)$"
-gzip = true
-
-[module]
-  # this is needed when you fetch the theme as a submodule to your repo.
-  # replacements = "github.com/panr/hugo-theme-terminal -> themes/terminal"
-[[module.imports]]
-  path = 'github.com/panr/hugo-theme-terminal'
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
