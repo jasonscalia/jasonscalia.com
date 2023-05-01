@@ -15,7 +15,10 @@ jobs:
       contents: read
     steps:
       - name: Git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       # Sets up Hugo
       - name: Setup Hugo
@@ -36,4 +39,4 @@ jobs:
 
       # Deploys built website to S3
       - name: Deploy to S3
-        run: hugo deploy --force --maxDeletes -1 --invalidateCDN
+        run: hugo deploy --force --maxDeletes=-1 --invalidateCDN=true
