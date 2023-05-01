@@ -1,4 +1,4 @@
-baseurl = "jasonscalia.com"
+baseurl = "https://jasonscalia.com"
 DefaultContentLanguage = "en"
 title = "Jason is Web 1.1"
 theme = "beautifulhugo"
