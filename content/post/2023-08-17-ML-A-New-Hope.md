@@ -31,4 +31,8 @@ Math and I, we're friends now. We've put the past behind us and in our advancing
 
 I'm also going to waste the opportunity to insert a great metaphor here. I'm nearly done with my CS degree, eagarly looking forward to getting a Master's degree, and diving head first in to the Machine Learning and AI space.
 
-The insecure, Math-phobic wannabe music journalist of my 20's would never have believed this, nearly assured that I would be living alone, in a remote area of PA, installing new Linux distros. How wrong we can be when we try to predict the future or, perhaps, let our pasts dictate our future.
+## Conclusion
+
+The insecure, Math-phobic wannabe music journalist of my 20's would never have believed this, nearly assured that I would be living alone, in a remote area of PA, installing new Linux distros.
+
+How wrong we can be when we try to predict the future or, perhaps, let our pasts dictate our future.
