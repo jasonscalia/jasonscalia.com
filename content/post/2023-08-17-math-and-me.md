@@ -9,7 +9,7 @@ hideComments: false
 draft: false
 ---
 
-As a technologist, I got into this field because I love all things computing, so it's strange but somewhat rewarding to decide to specialize. The first step being taking my AWS ML cert in the next 2 months or so.
+As a technologist, I got into this field because I love all things computing. So it's strange, but somewhat rewarding to decide to specialize. The first step being taking my AWS ML cert in the next 2 months or so.
 
 Without going in to too much personal detail, Math and I have always had a hate-hate relationship: I hated Math and Math hated me. This is not a particularly uncommon story, but how unfortunate for the young technologist. If only I knew then what I know now.
 
