@@ -1,5 +1,5 @@
 ---
-title: "Progress on the AI/ML Front"
+title: "Math & Me: A Tale of Hate, Love, and Missed Metaphors"
 date: 2023-08-17T11:45:37-05:00
 author: = "Jason Scalia"
 authorTwitter: "jason_scalia"
